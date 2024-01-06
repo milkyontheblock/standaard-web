@@ -5,10 +5,15 @@ export const metadata: Metadata = {
   title: 'The Cloud Ones'
 };
 
-export default function Layout({children}: {children: ReactNode}) {
+type LayoutProps = {
+  children: ReactNode,
+  className?: string
+}
+
+export default function Layout(props: LayoutProps) {
   return (
-    <main> 
-      {children}
+    <main className={props.className}> 
+      {props.children}
     </main>
   );
 }
