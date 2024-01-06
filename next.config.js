@@ -5,7 +5,12 @@ const nextConfig = {
     return [
       {
         source: '/',
-        destination: '/editions/the-after-hours-with-clubkade',
+        destination: '/editions/the-after-hours-with-clubkade/tickets',
+        permanent: false,
+      },
+      {
+        source: '/editions/the-after-hours-with-clubkade',
+        destination: '/editions/the-after-hours-with-clubkade/tickets',
         permanent: false,
       },
     ];
