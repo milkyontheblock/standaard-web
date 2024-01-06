@@ -29,7 +29,7 @@ export default function Page() {
 
         <link rel="canonical" href="/" />
 
-        <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+        <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
       </Head>
 
       <div 
