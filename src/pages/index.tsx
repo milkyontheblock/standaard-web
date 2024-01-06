@@ -15,7 +15,7 @@ export default function Page() {
         />
         <meta
           property="og:image"
-          content="/images/og.png"
+          content="/images/og.webp"
         />
       </Head>
 
