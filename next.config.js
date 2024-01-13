@@ -18,6 +18,11 @@ const nextConfig = {
         destination: '/the-after-hours-with-clubkade/tickets',
         permanent: false,
       },
+      {
+        source: '/products/waterijs',
+        destination: 'https://buy.stripe.com/eVaaEW5xSaOY2k07st',
+        permanent: false
+      }
     ];
   },
 };
