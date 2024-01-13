@@ -19,8 +19,13 @@ const nextConfig = {
         permanent: false,
       },
       {
-        source: '/products/waterijs',
-        destination: 'https://buy.stripe.com/eVaaEW5xSaOY2k07st',
+        source: '/products/waterijsje',
+        destination: 'https://buy.stripe.com/7sI7sK1hCe1acYE7su',
+        permanent: false
+      },
+      {
+        source: '/products/3-waterijsjes',
+        destination: 'https://buy.stripe.com/9AQcN40dy7CM9MsfZ1',
         permanent: false
       }
     ];
